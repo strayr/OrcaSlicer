@@ -1,0 +1,53 @@
+{
+   "close_fan_the_first_x_layers" : "3",
+   "compatible_printers" : "",
+   "compatible_printers_condition" : "",
+   "compatible_prints" : "",
+   "compatible_prints_condition" : "",
+   "cool_plate_temp" : "70",
+   "cool_plate_temp_initial_layer" : "80",
+   "default_filament_colour" : "#8000FF",
+   "eng_plate_temp" : "70",
+   "eng_plate_temp_initial_layer" : "80",
+   "fan_cooling_layer_time" : "20",
+   "fan_max_speed" : "40",
+   "fan_min_speed" : "30",
+   "filament_cost" : "20",
+   "filament_density" : "1.27",
+   "filament_diameter" : "1.75",
+   "filament_end_gcode" : [
+      "; Filament-specific end gcode \n;END gcode for filament\n"
+   ],
+   "filament_flow_ratio" : "1",
+   "filament_max_volumetric_speed" : "18",
+   "filament_minimal_purge_on_wipe_tower" : "15",
+   "filament_notes" : [
+      ""
+   ],
+   "filament_settings_id" : "ZIRO PETG @CHT",
+   "filament_soluble" : "0",
+   "filament_start_gcode" : [
+      "; Filament gcode\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0975 {endif}  ;  Guess \n;;;;;;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_SWITCH_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.38{endif}  ;GUESS Switchwire Bowden\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and printer_notes=~/.*PRINTER_NOZZLE_CHT*/ and nozzle_diameter[0]==0.6} SET_PRESSURE_ADVANCE ADVANCE=0.0525{endif}  ; 2022-03-03\n"
+   ],
+   "filament_type" : "PETG",
+   "filament_vendor" : "Creality",
+   "from" : "User",
+   "full_fan_speed_layer" : "0",
+   "hot_plate_temp" : "70",
+   "hot_plate_temp_initial_layer" : "80",
+   "inherits" : "Generic PETG",
+   "is_custom_defined" : "1",
+   "name" : "ZIRO PETG @CHT",
+   "nozzle_temperature" : "260",
+   "nozzle_temperature_initial_layer" : "260",
+   "nozzle_temperature_range_high" : "260",
+   "nozzle_temperature_range_low" : "0",
+   "overhang_fan_speed" : "50",
+   "reduce_fan_stop_start_freq" : "1",
+   "slow_down_for_layer_cooling" : "1",
+   "slow_down_layer_time" : "15",
+   "slow_down_min_speed" : "15",
+   "textured_plate_temp" : "70",
+   "textured_plate_temp_initial_layer" : "80",
+   "version" : "1.6.0.0"
+}

@@ -1,1 +1,11 @@
 BambuNetworkEngine.conf
+hms/
+log/
+ota/
+plugins/
+user_backup*/
+system/
+*.bak
+user/hints.cereal
+OrcaSlicer.conf
+printers/

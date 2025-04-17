@@ -1,0 +1,125 @@
+{
+   "bed_custom_model" : "C:\\\\Users\\\\rowla\\\\AppData\\\\Roaming\\\\SuperSlicer\\\\beds\\\\ender3_bed.stl",
+   "bed_custom_texture" : "C:\\\\Users\\\\rowla\\\\AppData\\\\Roaming\\\\SuperSlicer\\\\beds\\\\i3-PEI-scrub.svg",
+   "before_layer_change_gcode" : [
+      ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n"
+   ],
+   "change_filament_gcode" : [
+      ""
+   ],
+   "default_filament_profile" : "Generic PLA",
+   "default_print_profile" : "0.20mm BEST",
+   "deretraction_speed" : "25",
+   "from" : "User",
+   "gcode_flavor" : "klipper",
+   "host_type" : "octoprint",
+   "inherits" : "Prusa MK3S 0.6 nozzle",
+   "is_custom_defined" : "1",
+   "layer_change_gcode" : [
+      ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT"
+   ],
+   "machine_end_gcode" : [
+      "END_PRINT"
+   ],
+   "machine_max_acceleration_e" : [
+      "2500"
+   ],
+   "machine_max_acceleration_extruding" : [
+      "2000"
+   ],
+   "machine_max_acceleration_retracting" : [
+      "1200"
+   ],
+   "machine_max_acceleration_travel" : [
+      "2000",
+      "1250"
+   ],
+   "machine_max_acceleration_x" : [
+      "2500"
+   ],
+   "machine_max_acceleration_y" : [
+      "2500"
+   ],
+   "machine_max_acceleration_z" : [
+      "200"
+   ],
+   "machine_max_jerk_e" : [
+      "10"
+   ],
+   "machine_max_jerk_x" : [
+      "8"
+   ],
+   "machine_max_jerk_y" : [
+      "8"
+   ],
+   "machine_max_jerk_z" : [
+      "2"
+   ],
+   "machine_max_speed_e" : [
+      "100"
+   ],
+   "machine_max_speed_x" : [
+      "200"
+   ],
+   "machine_max_speed_y" : [
+      "200"
+   ],
+   "machine_max_speed_z" : [
+      "40"
+   ],
+   "machine_min_extruding_rate" : [
+      "0"
+   ],
+   "machine_min_travel_rate" : [
+      "0"
+   ],
+   "machine_pause_gcode" : [
+      ""
+   ],
+   "machine_start_gcode" : [
+      ";M104 S0\n;M140 S0\n;M107\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL={initial_extruder}\n\n;SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500\n\n;SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500\n;TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.005 ;For DD\n;TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.020 ;For Bowden\n"
+   ],
+   "max_layer_height" : "0.6",
+   "min_layer_height" : "0.15",
+   "name" : "Cylon 0.6",
+   "nozzle_diameter" : "0.6",
+   "print_host" : "http://surfort.local:7125",
+   "printable_area" : [
+      "0x0",
+      "230x0",
+      "230x230",
+      "0x230"
+   ],
+   "printable_height" : "200",
+   "printer_notes" : [
+      "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nI'm pretending to own a prusa and double keywording here.\nPRINTER_VENDOR_PRUSA3D\nPRINTER_MODEL_MK4\nPRINTER_MODEL_CYBER\nPRINTER_OS_KLIPPER\nHOTEND_AFTERBURNER_E3D\nHOTEND_AFTERBURNER_REVO\nPRINTER_NOZZLE_CHT"
+   ],
+   "printer_settings_id" : "Cylon 0.6",
+   "printer_technology" : "FFF",
+   "printer_variant" : "0.4",
+   "printhost_authorization_type" : "key",
+   "printhost_ssl_ignore_revoke" : "1",
+   "retract_before_wipe" : "70%",
+   "retract_length_toolchange" : "1",
+   "retract_restart_extra" : "0",
+   "retract_restart_extra_toolchange" : "0",
+   "retract_when_changing_layer" : "0",
+   "retraction_length" : "0.8",
+   "retraction_minimum_travel" : "1",
+   "retraction_speed" : "50",
+   "silent_mode" : "0",
+   "single_extruder_multi_material" : "0",
+   "template_custom_gcode" : [
+      ""
+   ],
+   "thumbnails" : [
+      "32x32/PNG",
+      " 400x300/PNG"
+   ],
+   "thumbnails_format" : "PNG",
+   "use_firmware_retraction" : "0",
+   "use_relative_e_distances" : "0",
+   "version" : "1.6.0.0",
+   "wipe" : "0",
+   "z_hop" : "0.3"
+}

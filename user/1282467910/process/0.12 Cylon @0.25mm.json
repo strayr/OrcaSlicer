@@ -1,0 +1,22 @@
+{
+    "bottom_shell_layers": "5",
+    "elefant_foot_compensation": "0.2",
+    "from": "User",
+    "gcode_comments": "1",
+    "inherits": "0.20mm Standard @MK3S",
+    "initial_layer_print_height": "0.16",
+    "internal_solid_infill_speed": "100",
+    "layer_height": "0.12",
+    "name": "0.12 Cylon @0.25mm",
+    "precise_outer_wall": "1",
+    "print_settings_id": "0.12 Cylon @0.25mm",
+    "resolution": "0.0012",
+    "slice_closing_radius": "0.0025",
+    "slowdown_for_curled_perimeters": "1",
+    "staggered_inner_seams": "1",
+    "top_shell_layers": "5",
+    "top_surface_pattern": "monotonicline",
+    "travel_speed": "200",
+    "version": "1.6.4.0",
+    "wipe_on_loops": "1"
+}
