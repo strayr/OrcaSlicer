@@ -18,11 +18,11 @@
         "2500"
     ],
     "machine_max_acceleration_extruding": [
-        "1250",
+        "2000",
         "1250"
     ],
     "machine_max_acceleration_retracting": [
-        "1250",
+        "2000",
         "1250"
     ],
     "machine_max_acceleration_travel": [
