@@ -1,0 +1,9 @@
+{
+    "from": "User",
+    "inherits": "0.20mm Standard @MK3S 0.4",
+    "initial_layer_line_width": "0.6",
+    "is_custom_defined": "0",
+    "name": "0.20mm Standard @Cylon 0.4",
+    "print_settings_id": "0.20mm Standard @Cylon 0.4",
+    "version": "2.3.0.3"
+}
