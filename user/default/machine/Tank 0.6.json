@@ -93,7 +93,6 @@
     ],
     "single_extruder_multi_material": "0",
     "thumbnails": "32x32/PNG, 400x300/PNG",
-    "use_relative_e_distances": "0",
     "version": "1.6.0.0",
     "z_hop": [
         "0.3"

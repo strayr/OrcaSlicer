@@ -1,0 +1,40 @@
+{
+    "close_fan_the_first_x_layers": [
+        "6"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "1.8"
+    ],
+    "filament_settings_id": [
+        "FDG PLA BASIC V5 @BBL A1M 0.2 nozzle"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "55"
+    ],
+    "inherits": "Bambu PLA Basic @BBL A1M 0.2 nozzle",
+    "is_custom_defined": "0",
+    "name": "FDG PLA BASIC V5 @BBL A1M 0.2 nozzle",
+    "nozzle_temperature_initial_layer": [
+        "225"
+    ],
+    "slow_down_min_speed": [
+        "10"
+    ],
+    "textured_plate_temp": [
+        "55"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.7.0.29"
+}

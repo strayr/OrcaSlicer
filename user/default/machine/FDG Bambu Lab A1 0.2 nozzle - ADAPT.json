@@ -1,0 +1,17 @@
+{
+    "bed_custom_model": "/Applications/BambuStudio 3-25.app/Contents/Resources/profiles/BBL/bbl-3dp-X1.stl",
+    "from": "User",
+    "inherits": "Bambu Lab A1 0.2 nozzle",
+    "is_custom_defined": "0",
+    "max_layer_height": [
+        "0.08"
+    ],
+    "name": "FDG Bambu Lab A1 0.2 nozzle - ADAPT",
+    "printer_settings_id": "FDG Bambu Lab A1 0.2 nozzle - ADAPT",
+    "thumbnails": "50x50/PNG",
+    "time_lapse_gcode": ";===================== date: 20240606 =====================\n{if !spiral_mode && print_sequence != \"by object\"}\n; don't support timelapse gcode in spiral_mode and by object sequence for I3 structure printer\nM622.1 S1 ; for prev firware, default turned on\nM1002 judge_flag timelapse_record_flag\nM622 J1\nG92 E0\nG17\nG2 Z{layer_z + 0.4} I0.86 J0.86 P1 F20000 ; spiral lift a little\nG1 Z{max_layer_z + 0.4}\nG1 X0 Y{first_layer_center_no_wipe_tower[1]} F18000 ; move to safe pos\nG1 X-48.2 F3000 ; move to safe pos\nM400\nM1004 S5 P1  ; external shutter\nM400 P300\nM971 S11 C11 O0\nG92 E0\nG1 X0 F18000\nM623\n\nM622.1 S1\nM1002 judge_flag g39_3rd_layer_detect_flag\nM622 J1\n    ; enable nozzle clog detect at 3rd layer\n    {if layer_num == 2}\n      M400\n      G90\n      M83\n      M204 S5000\n      G0 Z2 F4000\n      G0 X261 Y250 F20000\n      M400 P200\n      G39 S1\n      G0 Z2 F4000\n    {endif}\n\n\n    M622.1 S1\n    M1002 judge_flag g39_detection_flag\n    M622 J1\n      {if !in_head_wrap_detect_zone}\n        M622.1 S0\n        M1002 judge_flag g39_mass_exceed_flag\n        M622 J1\n        {if layer_num > 2}\n            G392 S0\n            M400\n            G90\n            M83\n            M204 S5000\n            G0 Z{max_layer_z + 0.4} F4000\n            G39.3 S1\n            G0 Z{max_layer_z + 0.4} F4000\n            G392 S0\n          {endif}\n        M623\n    {endif}\n    M623\nM623\n{endif}\n",
+    "version": "1.10.0.38",
+    "wipe_distance": [
+        "2"
+    ]
+}

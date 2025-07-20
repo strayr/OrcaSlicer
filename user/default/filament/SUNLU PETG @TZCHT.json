@@ -1,0 +1,16 @@
+{
+    "compatible_printers": [
+        "Prusa XL 0.4 nozzle"
+    ],
+    "filament_notes": [
+        "\"New\" formula\n230-240C 50-100mm/s\n240-260C 100-200mm/s"
+    ],
+    "filament_settings_id": [
+        "SUNLU PETG @TZCHT"
+    ],
+    "from": "User",
+    "inherits": "SUNLU PETG @System",
+    "is_custom_defined": "0",
+    "name": "SUNLU PETG @TZCHT",
+    "version": "2.3.0.3"
+}

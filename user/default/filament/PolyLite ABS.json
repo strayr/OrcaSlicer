@@ -40,7 +40,7 @@
         "100"
     ],
     "default_filament_colour": [
-        "#B0B0B0"
+        "#00FFFF"
     ],
     "dont_slow_down_outer_wall": [
         "0"
@@ -94,7 +94,7 @@
         "; Filament-specific end gcode"
     ],
     "filament_flow_ratio": [
-        "0.95"
+        "0.97"
     ],
     "filament_is_support": [
         "0"
