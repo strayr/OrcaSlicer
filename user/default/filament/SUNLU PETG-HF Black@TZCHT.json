@@ -11,6 +11,9 @@
     "filament_flow_ratio": [
         "0.94"
     ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
     "filament_notes": [
         "205-215℃：50 -100mm/s \n240-250℃：100-300mm/s\n260-270℃：300-600mm/s\nBed temperature: not heated with glue, heated 70-80℃ can not be coated with glue"
     ],

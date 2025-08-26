@@ -21,7 +21,7 @@
     "nozzle_type": "hardened_steel",
     "print_host": "keinbinar",
     "print_host_webui": "keinbinar:7125",
-    "printable_height": "115",
+    "printable_height": "118",
     "printer_settings_id": "KeinBinar 0.25mm",
     "purge_in_prime_tower": "0",
     "retraction_length": [

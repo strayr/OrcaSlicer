@@ -82,6 +82,12 @@
     "retract_length_toolchange": [
         "1"
     ],
+    "retract_lift_above": [
+        "0.25"
+    ],
+    "retract_lift_below": [
+        "1500"
+    ],
     "retraction_length": [
         "0.5"
     ],

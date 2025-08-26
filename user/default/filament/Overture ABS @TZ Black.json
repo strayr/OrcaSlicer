@@ -1,0 +1,46 @@
+{
+    "compatible_printers": [
+        "Prusa MK4 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#505050"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "20"
+    ],
+    "filament_end_gcode": [
+        "; filament end gcode \n;M106 P3 S0\n"
+    ],
+    "filament_flow_ratio": [
+        "0.92"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "Overture ABS @TZ Black"
+    ],
+    "filament_start_gcode": [
+        "; Filament gcode\n;{if activate_air_filtration[current_extruder] && support_air_filtration}\n;M106 P3 S{during_print_exhaust_fan_speed_num[current_extruder]} \n;{endif}\n"
+    ],
+    "filament_wipe": [
+        "0"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "100"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "100"
+    ],
+    "inherits": "Overture ABS Basic @System",
+    "is_custom_defined": "0",
+    "name": "Overture ABS @TZ Black",
+    "pressure_advance": [
+        "0.03"
+    ],
+    "version": "2.3.0.4"
+}

@@ -215,13 +215,16 @@
         "110"
     ],
     "hot_plate_temp_initial_layer": [
-        "110"
+        "115"
     ],
     "idle_temperature": [
         "0"
     ],
     "inherits": "Esun ABS",
     "internal_bridge_fan_speed": [
+        "-1"
+    ],
+    "ironing_fan_speed": [
         "-1"
     ],
     "is_custom_defined": "1",

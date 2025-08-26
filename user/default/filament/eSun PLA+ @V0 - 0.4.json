@@ -10,7 +10,7 @@
         "60"
     ],
     "default_filament_colour": [
-        "#4B4B87"
+        "#FFFF00"
     ],
     "enable_pressure_advance": [
         "1"
@@ -31,19 +31,19 @@
         "; Filament-specific end gcode \n;END gcode for filament\n"
     ],
     "filament_flow_ratio": [
-        "0.88"
+        "0.97"
     ],
     "filament_max_volumetric_speed": [
-        "24"
+        "15"
     ],
     "filament_notes": [
-        "Stringing at 230 with TZ and copper nozzle"
+        "Set with temperature tower to 220\nChecks out for yellow, bone and black"
     ],
     "filament_settings_id": [
-        "eSun PLA+ Grey @0.4HF"
+        "eSun PLA+ @V0 - 0.4"
     ],
     "filament_start_gcode": [
-        ""
+        "; filament gcode\n;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0615 {endif}  ; AB 2021-10-05\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_REVO.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.035 {endif}  ; checked 2022-12-20 ellis method \n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_SWITCH_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.38{endif}  ;GUESS Switchwire Bowden"
     ],
     "filament_vendor": [
         "(Unknown)"
@@ -53,25 +53,22 @@
         "4"
     ],
     "hot_plate_temp": [
-        "65"
+        "70"
     ],
     "hot_plate_temp_initial_layer": [
         "70"
     ],
     "inherits": "Generic PLA",
     "is_custom_defined": "1",
-    "name": "eSun PLA+ Grey @0.4HF",
-    "nozzle_temperature_initial_layer": [
-        "230"
-    ],
+    "name": "eSun PLA+ @V0 - 0.4",
     "nozzle_temperature_range_high": [
         "230"
     ],
     "nozzle_temperature_range_low": [
-        "210"
+        "205"
     ],
     "pressure_advance": [
-        "0.06"
+        "0.04"
     ],
     "slow_down_layer_time": [
         "15"
@@ -80,10 +77,10 @@
         "10"
     ],
     "textured_plate_temp": [
-        "60"
+        "65"
     ],
     "textured_plate_temp_initial_layer": [
-        "60"
+        "70"
     ],
     "version": "1.6.0.0"
 }
