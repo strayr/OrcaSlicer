@@ -1,53 +1,98 @@
 {
-   "close_fan_the_first_x_layers" : "1",
-   "compatible_printers" : "",
-   "compatible_printers_condition" : "",
-   "compatible_prints" : "",
-   "compatible_prints_condition" : "",
-   "cool_plate_temp" : "80",
-   "cool_plate_temp_initial_layer" : "80",
-   "default_filament_colour" : "#8000FF",
-   "eng_plate_temp" : "80",
-   "eng_plate_temp_initial_layer" : "80",
-   "fan_cooling_layer_time" : "20",
-   "fan_max_speed" : "100",
-   "fan_min_speed" : "100",
-   "filament_cost" : "20",
-   "filament_density" : "1.27",
-   "filament_diameter" : "1.75",
-   "filament_end_gcode" : [
-      "; Filament-specific end gcode \n;END gcode for filament\n"
-   ],
-   "filament_flow_ratio" : "1",
-   "filament_max_volumetric_speed" : "17",
-   "filament_minimal_purge_on_wipe_tower" : "15",
-   "filament_notes" : [
-      "PA 0.042 in 2022, 0.044 in 2024\n25mm3 in revo HF\nshiny to 17mm3/s"
-   ],
-   "filament_settings_id" : "eSun PETG",
-   "filament_soluble" : "0",
-   "filament_start_gcode" : [
-      "; Filament gcode\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.08 {endif}  ;  Green 09-12-2023 \n;;;;;;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_SWITCH_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.38{endif}  ;GUESS Switchwire Bowden\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and printer_notes=~/.*PRINTER_NOZZLE_CHT*/ and nozzle_diameter[0]==0.6} SET_PRESSURE_ADVANCE ADVANCE=0.044{endif}  ; 2024-06-13 green"
-   ],
-   "filament_type" : "PETG",
-   "filament_vendor" : "Creality",
-   "from" : "User",
-   "full_fan_speed_layer" : "0",
-   "hot_plate_temp" : "80",
-   "hot_plate_temp_initial_layer" : "80",
-   "inherits" : "Generic PETG",
-   "is_custom_defined" : "1",
-   "name" : "eSun PETG",
-   "nozzle_temperature" : "250",
-   "nozzle_temperature_initial_layer" : "250",
-   "nozzle_temperature_range_high" : "250",
-   "nozzle_temperature_range_low" : "0",
-   "overhang_fan_speed" : "100",
-   "reduce_fan_stop_start_freq" : "1",
-   "slow_down_for_layer_cooling" : "1",
-   "slow_down_layer_time" : "15",
-   "slow_down_min_speed" : "15",
-   "textured_plate_temp" : "80",
-   "textured_plate_temp_initial_layer" : "80",
-   "version" : "1.6.0.0"
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "compatible_printers": [],
+    "cool_plate_temp": [
+        "80"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "80"
+    ],
+    "default_filament_colour": [
+        "#8000FF"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "80"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "80"
+    ],
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "filament_cost": [
+        "20"
+    ],
+    "filament_end_gcode": [
+        "; Filament-specific end gcode \n;END gcode for filament\n"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "17"
+    ],
+    "filament_notes": [
+        "PA 0.042 in 2022, 0.044 in 2024\n25mm3 in revo HF\nshiny to 17mm3/s"
+    ],
+    "filament_settings_id": [
+        "eSun PETG"
+    ],
+    "filament_start_gcode": [
+        ""
+    ],
+    "filament_vendor": [
+        "Creality"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "inherits": "Generic PETG",
+    "is_custom_defined": "1",
+    "name": "eSun PETG",
+    "nozzle_temperature": [
+        "250"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "250"
+    ],
+    "nozzle_temperature_range_high": [
+        "250"
+    ],
+    "nozzle_temperature_range_low": [
+        "0"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "pressure_advance": [
+        "0.04"
+    ],
+    "slow_down_layer_time": [
+        "15"
+    ],
+    "slow_down_min_speed": [
+        "15"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "version": "1.6.0.0"
 }

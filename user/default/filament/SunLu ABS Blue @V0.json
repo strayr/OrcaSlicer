@@ -163,7 +163,7 @@
         "SunLu ABS Blue @V0"
     ],
     "filament_shrink": [
-        "100%"
+        "99.5%"
     ],
     "filament_shrinkage_compensation_z": [
         "100%"
@@ -212,16 +212,19 @@
         "4"
     ],
     "hot_plate_temp": [
-        "105"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "115"
+        "100"
     ],
     "idle_temperature": [
         "0"
     ],
     "inherits": "Esun ABS",
     "internal_bridge_fan_speed": [
+        "-1"
+    ],
+    "ironing_fan_speed": [
         "-1"
     ],
     "is_custom_defined": "1",

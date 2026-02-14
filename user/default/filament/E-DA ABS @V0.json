@@ -212,10 +212,10 @@
         "6"
     ],
     "hot_plate_temp": [
-        "110"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "115"
+        "100"
     ],
     "idle_temperature": [
         "0"

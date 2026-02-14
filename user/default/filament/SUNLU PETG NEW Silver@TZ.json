@@ -1,15 +1,15 @@
 {
-    "compatible_printers": [
-        "Prusa XL 0.4 nozzle"
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.075,\t  2.34,\t500\n0.03,\t  2.34,\t1000\n0.04,\t  2.34,\t2000\n0.04,\t  2.34,\t4000\n0.06,\t  5.86,\t500\n0.05,\t  5.86,\t1000\n0.04,\t  5.86,\t2000\n0.03,\t  5.86,\t4000\n0.055,\t11.7,\t500\n0.04, \t11.7,\t1000\n0.035,\t11.7,\t2000\n0.035,\t11.7,\t4000\n0.06,\t  23.4,\t500\n0.045, \t23.4,\t1000\n0.03,\t  23.4,\t2000\n0.03, \t23.4,\t4000"
     ],
     "default_filament_colour": [
         "#C0C0C0"
     ],
     "enable_pressure_advance": [
         "1"
-    ],
-    "filament_flow_ratio": [
-        "0.94"
     ],
     "filament_max_volumetric_speed": [
         "20"
@@ -21,7 +21,7 @@
         "0"
     ],
     "filament_settings_id": [
-        "SUNLU PETG NEW Silver@TZCHT"
+        "SUNLU PETG NEW Silver@TZ"
     ],
     "filament_wipe": [
         "0"
@@ -35,7 +35,7 @@
     ],
     "inherits": "SUNLU PETG @System",
     "is_custom_defined": "0",
-    "name": "SUNLU PETG NEW Silver@TZCHT",
+    "name": "SUNLU PETG NEW Silver@TZ",
     "nozzle_temperature": [
         "260"
     ],

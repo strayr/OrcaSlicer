@@ -10,10 +10,12 @@
     "line_width": "0.45",
     "name": "0.20mm Standard @KeinBinar",
     "print_settings_id": "0.20mm Standard @KeinBinar",
+    "seam_position": "aligned_back",
     "skirt_loops": "3",
     "staggered_inner_seams": "1",
     "top_surface_line_width": "0.42",
     "version": "2.3.0.3",
+    "wall_sequence": "inner-outer-inner wall",
     "wipe_before_external_loop": "1",
     "wipe_on_loops": "1"
 }

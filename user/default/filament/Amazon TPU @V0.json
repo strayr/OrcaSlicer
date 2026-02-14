@@ -1,0 +1,118 @@
+{
+    "close_fan_the_first_x_layers": [
+        "1"
+    ],
+    "cool_plate_temp": [
+        "35"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "35"
+    ],
+    "default_filament_colour": [
+        ""
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "45"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "45"
+    ],
+    "fan_cooling_layer_time": [
+        "60"
+    ],
+    "fan_max_speed": [
+        "100"
+    ],
+    "fan_min_speed": [
+        "100"
+    ],
+    "filament_cost": [
+        "0"
+    ],
+    "filament_density": [
+        "0"
+    ],
+    "filament_deretraction_speed": [
+        "20"
+    ],
+    "filament_end_gcode": [
+        " "
+    ],
+    "filament_max_volumetric_speed": [
+        "3"
+    ],
+    "filament_retraction_length": [
+        "1"
+    ],
+    "filament_retraction_speed": [
+        "20"
+    ],
+    "filament_settings_id": [
+        "Amazon TPU @V0"
+    ],
+    "filament_start_gcode": [
+        " "
+    ],
+    "filament_type": [
+        "PLA"
+    ],
+    "filament_vendor": [
+        "(Undefined)"
+    ],
+    "filament_wipe": [
+        "nil"
+    ],
+    "filament_z_hop": [
+        "nil"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Amazon TPU",
+    "is_custom_defined": "1",
+    "name": "Amazon TPU @V0",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "200"
+    ],
+    "nozzle_temperature_range_high": [
+        "240"
+    ],
+    "nozzle_temperature_range_low": [
+        "190"
+    ],
+    "overhang_fan_speed": [
+        "100"
+    ],
+    "pressure_advance": [
+        "0.7"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "5"
+    ],
+    "slow_down_min_speed": [
+        "10"
+    ],
+    "textured_plate_temp": [
+        "45"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "45"
+    ],
+    "version": "1.6.0.0"
+}

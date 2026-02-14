@@ -1,0 +1,55 @@
+{
+    "compatible_printers": [
+        "Prusa XL 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#C0C0C0"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "0.97"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "3dQF PETG @TZ"
+    ],
+    "filament_vendor": [
+        "3dQF"
+    ],
+    "filament_wipe": [
+        "0"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "inherits": "SUNLU PETG @System",
+    "is_custom_defined": "0",
+    "name": "3dQF PETG @TZ",
+    "nozzle_temperature": [
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "235"
+    ],
+    "nozzle_temperature_range_high": [
+        "260"
+    ],
+    "nozzle_temperature_range_low": [
+        "235"
+    ],
+    "pressure_advance": [
+        "0.08"
+    ],
+    "version": "2.3.0.3"
+}

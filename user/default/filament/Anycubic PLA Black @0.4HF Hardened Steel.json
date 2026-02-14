@@ -1,0 +1,86 @@
+{
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.03,2.34,1000\n0.035,5.86,1000\n0.035,11.7,1000\n0.035,23.4,1000\n0.025,2.34,2000\n0.035,5.86,2000\n0.03,11.7,2000\n0.025,23.4,2000\n0.025,2.34,4000\n0.025,5.85,4000\n0.025,11.7,4000\n0.025,23.4,4000"
+    ],
+    "close_fan_the_first_x_layers": [
+        "2"
+    ],
+    "compatible_printers": [],
+    "cool_plate_temp": [
+        "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "60"
+    ],
+    "default_filament_colour": [
+        "#808080"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "60"
+    ],
+    "filament_end_gcode": [
+        "; Filament-specific end gcode \n;END gcode for filament\n"
+    ],
+    "filament_flow_ratio": [
+        "0.968"
+    ],
+    "filament_max_volumetric_speed": [
+        "17"
+    ],
+    "filament_notes": [
+        "Failed at 28mm3/s on test tower REVO\nFailed at 24 with TZ Steel"
+    ],
+    "filament_settings_id": [
+        "Anycubic PLA Black @0.4HF Hardened Steel"
+    ],
+    "filament_start_gcode": [
+        ";{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0350{endif}  ; checked 2022-12-20 ellis method \n\n;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_SWITCH_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.38{endif}  ; Tested 2022-01-22 Switchwire Bowden\n;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.25} SET_PRESSURE_ADVANCE ADVANCE=0.1275{endif}  ; checked 2022-04-05\n\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.04{endif}  ; checked 2024-12-28 ellis method CW2/voronrevo\n\n;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_REVO.*/ and printer_notes=~/.*HF_NOZZLE.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.056{endif}  ; checked 2024-12-28 ellis method CW2/voronrevo\n\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_REVO.*/ and printer_notes=~/.*HF_NOZZLE.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.04{endif}  ; just a guess with white but better"
+    ],
+    "filament_vendor": [
+        "(Unknown)"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA",
+    "is_custom_defined": "1",
+    "name": "Anycubic PLA Black @0.4HF Hardened Steel",
+    "nozzle_temperature": [
+        "230"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "230"
+    ],
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "200"
+    ],
+    "slow_down_layer_time": [
+        "15"
+    ],
+    "slow_down_min_speed": [
+        "15"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.6.0.0"
+}

@@ -13,6 +13,7 @@
     "line_width": "0.45",
     "name": "0.20mm Voron Parts @KeinBinar",
     "print_settings_id": "0.20mm Voron Parts @KeinBinar",
+    "skirt_height": "3",
     "skirt_loops": "3",
     "sparse_infill_density": "40%",
     "sparse_infill_pattern": "tpmsd",

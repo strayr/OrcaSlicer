@@ -22,7 +22,7 @@
         "; Filament-specific end gcode \n;END gcode for filament\n"
     ],
     "filament_flow_ratio": [
-        "0.968"
+        "0.99"
     ],
     "filament_max_volumetric_speed": [
         "10"

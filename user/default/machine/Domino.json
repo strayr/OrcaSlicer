@@ -1,0 +1,52 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
+    "emit_machine_limits_to_gcode": "0",
+    "from": "User",
+    "inherits": "Voron 0.1 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+    "machine_max_acceleration_e": [
+        "7500",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "7500",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "7500",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "7500",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "7500",
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "3000",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "150",
+        "12"
+    ],
+    "machine_start_gcode": ";M104 S0\n;M140 S0\n\nPRINT_START EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] \nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\n",
+    "max_resonance_avoidance_speed": "180",
+    "min_resonance_avoidance_speed": "110",
+    "name": "Domino",
+    "nozzle_type": "hardened_steel",
+    "print_host": "192.168.99.213",
+    "print_host_webui": "192.168.99.213:7125",
+    "printable_height": "115",
+    "printer_settings_id": "Domino",
+    "retraction_length": [
+        "1.3"
+    ],
+    "version": "2.3.0.3",
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

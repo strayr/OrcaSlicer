@@ -64,10 +64,10 @@
         "30"
     ],
     "fan_max_speed": [
-        "30"
+        "15"
     ],
     "fan_min_speed": [
-        "20"
+        "15"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -109,7 +109,7 @@
         "nil"
     ],
     "filament_max_volumetric_speed": [
-        "35"
+        "20"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -212,16 +212,19 @@
         "4"
     ],
     "hot_plate_temp": [
-        "110"
+        "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "110"
+        "100"
     ],
     "idle_temperature": [
         "0"
     ],
     "inherits": "Prusa ABS",
     "internal_bridge_fan_speed": [
+        "-1"
+    ],
+    "ironing_fan_speed": [
         "-1"
     ],
     "is_custom_defined": "1",
@@ -239,7 +242,7 @@
         "0"
     ],
     "overhang_fan_speed": [
-        "25"
+        "15"
     ],
     "overhang_fan_threshold": [
         "95%"
@@ -248,7 +251,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.035"
+        "0.02"
     ],
     "reduce_fan_stop_start_freq": [
         "1"

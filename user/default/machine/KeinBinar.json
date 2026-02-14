@@ -1,22 +1,43 @@
 {
+    "auxiliary_fan": "1",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
     "emit_machine_limits_to_gcode": "0",
     "from": "User",
     "inherits": "Voron 0.1 0.4 nozzle",
-    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
     "machine_max_speed_z": [
         "15",
         "12"
     ],
-    "machine_start_gcode": ";M104 S0\n;M140 S0\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type]",
+    "machine_start_gcode": ";M104 S0\n;M140 S0\n\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] TOTAL_LAYER=[total_layer_count] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL={initial_extruder}\n\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\n\n;_SET_TIMELAPSE_SETUP enable=true verbose=true\n;GET_TIMELAPSE_SETUP",
+    "max_resonance_avoidance_speed": "180",
+    "min_resonance_avoidance_speed": "110",
     "name": "KeinBinar",
-    "nozzle_type": "hardened_steel",
-    "print_host": "keinbinar",
-    "print_host_webui": "keinbinar:7125",
+    "nozzle_type": [
+        "hardened_steel"
+    ],
+    "print_host": "https://keinbinar:7130",
+    "print_host_webui": "https://keinbinar:7130",
+    "printable_area": [
+        "0x0",
+        "120x0",
+        "120x118",
+        "0x118"
+    ],
     "printable_height": "115",
+    "printer_agent": "moonraker",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "printer_settings_id": "KeinBinar",
+    "printhost_ssl_ignore_revoke": "1",
     "retraction_length": [
         "0.4"
     ],
+    "support_multi_bed_types": "1",
     "version": "2.3.0.3",
     "z_hop_types": [
         "Auto Lift"

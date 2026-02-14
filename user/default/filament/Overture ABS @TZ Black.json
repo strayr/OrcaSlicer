@@ -1,4 +1,10 @@
 {
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.07,\t2.32,\t500\n0.055,\t2.32,\t1000\n0.065,       2.32,\t2000\n0.040,       2.32,\t4000\n0.07,\t5.8,\t500\n0.055,\t5.8,\t1000\n0.045,\t5.8,\t2000\n0.025,\t5.8,\t4000\n0.04,\t11.8,\t1000\n0.035,\t11.8,\t2000\n0.025,\t11.8,\t4000\n0.045,\t23.2,\t1000\n0.035,\t23.2,\t2000\n0.025,\t23.2,\t4000"
+    ],
     "compatible_printers": [
         "Prusa MK4 0.4 nozzle"
     ],
@@ -34,7 +40,7 @@
         "100"
     ],
     "hot_plate_temp_initial_layer": [
-        "100"
+        "110"
     ],
     "inherits": "Overture ABS Basic @System",
     "is_custom_defined": "0",

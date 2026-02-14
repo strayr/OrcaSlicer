@@ -178,7 +178,7 @@
         "0"
     ],
     "filament_start_gcode": [
-        "\n; filament gcode\n;{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*HOTEND_AFTERBURNER_E3D.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.04 {endif}  ; AB 2021-10-05\n"
+        "\n"
     ],
     "filament_toolchange_delay": [
         "0"
@@ -224,6 +224,9 @@
     "internal_bridge_fan_speed": [
         "-1"
     ],
+    "ironing_fan_speed": [
+        "-1"
+    ],
     "is_custom_defined": "1",
     "name": "PolyLite ABS CHT",
     "nozzle_temperature": [
@@ -248,7 +251,7 @@
         "0.4157"
     ],
     "pressure_advance": [
-        "0.04"
+        "0.02"
     ],
     "reduce_fan_stop_start_freq": [
         "1"

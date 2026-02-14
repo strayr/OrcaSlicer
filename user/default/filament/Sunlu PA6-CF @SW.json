@@ -1,0 +1,49 @@
+{
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_bridges": [
+        "0.018"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.020,4.934,1000\n0.020,9.868,1000\n0.022,4.934,2000\n0.024,9.868,2000\n0.022,4.934,3000\n0.024,9.868,3000"
+    ],
+    "close_fan_the_first_x_layers": [
+        "4"
+    ],
+    "default_filament_colour": [
+        "#808080"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "fan_min_speed": [
+        "40"
+    ],
+    "filament_flow_ratio": [
+        "1.01"
+    ],
+    "filament_settings_id": [
+        "Sunlu PA6-CF @SW"
+    ],
+    "filament_vendor": [
+        "Sunlu"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "8"
+    ],
+    "inherits": "Prusa Generic PA-CF",
+    "is_custom_defined": "0",
+    "name": "Sunlu PA6-CF @SW",
+    "nozzle_temperature": [
+        "290"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "1"
+    ],
+    "version": "2.3.0.5"
+}

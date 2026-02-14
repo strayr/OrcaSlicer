@@ -163,7 +163,7 @@
         "Overture ASA CHT"
     ],
     "filament_shrink": [
-        "100%"
+        "99.6%"
     ],
     "filament_shrinkage_compensation_z": [
         "100%"
@@ -222,6 +222,9 @@
     ],
     "inherits": "Esun ABS",
     "internal_bridge_fan_speed": [
+        "-1"
+    ],
+    "ironing_fan_speed": [
         "-1"
     ],
     "is_custom_defined": "1",

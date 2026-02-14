@@ -1,0 +1,55 @@
+{
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.075,\t  2.34,\t500\n0.03,\t  2.34,\t1000\n0.04,\t  2.34,\t2000\n0.04,\t  2.34,\t4000\n0.06,\t  5.86,\t500\n0.05,\t  5.86,\t1000\n0.04,\t  5.86,\t2000\n0.03,\t  5.86,\t4000\n0.055,\t11.7,\t500\n0.04, \t11.7,\t1000\n0.035,\t11.7,\t2000\n0.035,\t11.7,\t4000\n0.06,\t  23.4,\t500\n0.045, \t23.4,\t1000\n0.03,\t  23.4,\t2000\n0.03, \t23.4,\t4000"
+    ],
+    "compatible_printers": [
+        "Prusa XL 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#C0C0C0"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "0.94"
+    ],
+    "filament_max_volumetric_speed": [
+        "20"
+    ],
+    "filament_notes": [
+        "205-215℃：50 -100mm/s \n240-250℃：100-300mm/s\n260-270℃：300-600mm/s\nBed temperature: not heated with glue, heated 70-80℃ can not be coated with glue"
+    ],
+    "filament_retract_when_changing_layer": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "SUNLU PETG-HF Black@TZCHT - slow"
+    ],
+    "filament_wipe": [
+        "0"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "80"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "80"
+    ],
+    "inherits": "SUNLU PETG @System",
+    "is_custom_defined": "0",
+    "name": "SUNLU PETG-HF Black@TZCHT - slow",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "pressure_advance": [
+        "0.055"
+    ],
+    "version": "2.3.0.3"
+}

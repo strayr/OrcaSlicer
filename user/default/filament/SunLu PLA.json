@@ -1,56 +1,89 @@
 {
-   "chamber_temperature" : "0",
-   "close_fan_the_first_x_layers" : "1",
-   "compatible_printers" : "",
-   "compatible_printers_condition" : "",
-   "compatible_prints" : "",
-   "compatible_prints_condition" : "",
-   "cool_plate_temp" : "60",
-   "cool_plate_temp_initial_layer" : "60",
-   "default_filament_colour" : "#F0F0F0",
-   "eng_plate_temp" : "60",
-   "eng_plate_temp_initial_layer" : "60",
-   "fan_cooling_layer_time" : "60",
-   "fan_max_speed" : "100",
-   "fan_min_speed" : "100",
-   "filament_cost" : "20",
-   "filament_density" : "1.24",
-   "filament_diameter" : "1.75",
-   "filament_end_gcode" : [
-      "; Filament-specific end gcode \n;END gcode for filament\n"
-   ],
-   "filament_flow_ratio" : "0.98",
-   "filament_max_volumetric_speed" : "9",
-   "filament_minimal_purge_on_wipe_tower" : "15",
-   "filament_notes" : [
-      ""
-   ],
-   "filament_settings_id" : "SunLu PLA",
-   "filament_shrink" : "100%",
-   "filament_soluble" : "0",
-   "filament_start_gcode" : [
-      "; Filament gcode\n;M412 D10  ;10mm distance\n;M412 S1   ; Enable runout\n;M900 K0.10 ; Linear advance spring constant - tested\n\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*PRINTER_MODEL_E3DD.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0575{endif}  ; set E3DD advance\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*PRINTER_MODEL_CYBER.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0575{endif}  ; set cybermk2 advance"
-   ],
-   "filament_type" : "PLA",
-   "filament_vendor" : "(Unknown)",
-   "from" : "User",
-   "full_fan_speed_layer" : "3",
-   "hot_plate_temp" : "60",
-   "hot_plate_temp_initial_layer" : "60",
-   "inherits" : "Generic PLA",
-   "is_custom_defined" : "1",
-   "name" : "SunLu PLA",
-   "nozzle_temperature" : "210",
-   "nozzle_temperature_initial_layer" : "215",
-   "nozzle_temperature_range_high" : "215",
-   "nozzle_temperature_range_low" : "0",
-   "overhang_fan_speed" : "100",
-   "overhang_fan_threshold" : "0%",
-   "reduce_fan_stop_start_freq" : "1",
-   "slow_down_for_layer_cooling" : "1",
-   "slow_down_layer_time" : "15",
-   "slow_down_min_speed" : "10",
-   "textured_plate_temp" : "60",
-   "textured_plate_temp_initial_layer" : "60",
-   "version" : "1.6.0.0"
+    "adaptive_pressure_advance": [
+        "1"
+    ],
+    "adaptive_pressure_advance_model": [
+        "0.055,\t2.51,\t500\n0.02,\t2.51,\t2000\n0.01,\t2.51,\t4000\n0.045,\t5.72,\t500\n0.035,\t5.72,\t2000\n0.025,\t5.72,\t4000\n0.045,\t10.7,\t500\n0.025,\t10.7,\t2000\n0.025,\t10.7,\t4000\n0.05,\t21.5,\t500\n0.025,\t21.5,\t2000\n0.02,\t21.5,\t4000\n"
+    ],
+    "adaptive_pressure_advance_overhangs": [
+        "1"
+    ],
+    "compatible_printers": [],
+    "cool_plate_temp": [
+        "60"
+    ],
+    "cool_plate_temp_initial_layer": [
+        "60"
+    ],
+    "default_filament_colour": [
+        "#F0F0F0"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "eng_plate_temp": [
+        "60"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "60"
+    ],
+    "fan_cooling_layer_time": [
+        "20"
+    ],
+    "filament_end_gcode": [
+        "; Filament-specific end gcode \n;END gcode for filament\n"
+    ],
+    "filament_flow_ratio": [
+        "0.96"
+    ],
+    "filament_max_volumetric_speed": [
+        "18"
+    ],
+    "filament_settings_id": [
+        "SunLu PLA"
+    ],
+    "filament_start_gcode": [
+        "; Filament gcode\n;M412 D10  ;10mm distance\n;M412 S1   ; Enable runout\n;M900 K0.10 ; Linear advance spring constant - tested\n\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*PRINTER_MODEL_E3DD.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0575{endif}  ; set E3DD advance\n{if printer_notes=~/.*PRINTER_OS_KLIPPER.*/ and printer_notes=~/.*PRINTER_MODEL_CYBER.*/ and nozzle_diameter[0]==0.4} SET_PRESSURE_ADVANCE ADVANCE=0.0575{endif}  ; set cybermk2 advance"
+    ],
+    "filament_vendor": [
+        "(Unknown)"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "3"
+    ],
+    "hot_plate_temp": [
+        "65"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "70"
+    ],
+    "inherits": "Generic PLA",
+    "is_custom_defined": "1",
+    "name": "SunLu PLA",
+    "nozzle_temperature": [
+        "210"
+    ],
+    "nozzle_temperature_range_high": [
+        "230"
+    ],
+    "nozzle_temperature_range_low": [
+        "200"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "slow_down_layer_time": [
+        "15"
+    ],
+    "slow_down_min_speed": [
+        "10"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.6.0.0"
 }

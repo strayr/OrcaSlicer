@@ -1,13 +1,15 @@
 {
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
     "emit_machine_limits_to_gcode": "0",
     "from": "User",
     "inherits": "Voron 0.1 0.4 nozzle",
     "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
     "machine_max_speed_z": [
         "15",
         "12"
     ],
-    "machine_start_gcode": ";M104 S0\n;M140 S0\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type]",
+    "machine_start_gcode": ";M104 S0\n;M140 S0\n\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL={initial_extruder}\n\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\n\n;_SET_TIMELAPSE_SETUP enable=true verbose=true\n;GET_TIMELAPSE_SETUP",
     "max_layer_height": [
         "0.25"
     ],
@@ -19,8 +21,8 @@
         "0.25"
     ],
     "nozzle_type": "hardened_steel",
-    "print_host": "keinbinar",
-    "print_host_webui": "keinbinar:7125",
+    "print_host": "https://keinbinar:7130",
+    "print_host_webui": "khttps://keinbinar:7130",
     "printable_height": "118",
     "printer_settings_id": "KeinBinar 0.25mm",
     "purge_in_prime_tower": "0",
