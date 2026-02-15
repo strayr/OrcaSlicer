@@ -220,7 +220,7 @@
     "idle_temperature": [
         "0"
     ],
-    "inherits": "Prusa ABS",
+    "inherits": "Generic ABS",
     "internal_bridge_fan_speed": [
         "-1"
     ],

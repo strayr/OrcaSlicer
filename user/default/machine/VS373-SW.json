@@ -1,0 +1,106 @@
+{
+    "bed_custom_model": "C:\\\\Program Files\\\\OrcaSlicer\\\\resources\\\\profiles\\\\Voron\\\\Voron_250_build_plate.stl",
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
+    "enable_filament_ramming": "0",
+    "fan_speedup_overhangs": "0",
+    "from": "User",
+    "inherits": "Voron Switchwire 250 0.4 nozzle",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
+    "machine_max_acceleration_e": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "4000",
+        "2500"
+    ],
+    "machine_max_acceleration_retracting": [
+        "4000",
+        "4000"
+    ],
+    "machine_max_acceleration_travel": [
+        "4000",
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "4000",
+        "2500"
+    ],
+    "machine_max_acceleration_y": [
+        "4000",
+        "2500"
+    ],
+    "machine_max_acceleration_z": [
+        "1000",
+        "200"
+    ],
+    "machine_max_jerk_x": [
+        "8",
+        "8"
+    ],
+    "machine_max_jerk_y": [
+        "8",
+        "8"
+    ],
+    "machine_max_jerk_z": [
+        "8",
+        "2"
+    ],
+    "machine_max_junction_deviation": [
+        "0",
+        "0"
+    ],
+    "machine_max_speed_e": [
+        "100",
+        "100"
+    ],
+    "machine_max_speed_x": [
+        "300",
+        "160"
+    ],
+    "machine_max_speed_y": [
+        "300",
+        "160"
+    ],
+    "machine_max_speed_z": [
+        "100",
+        "40"
+    ],
+    "machine_start_gcode": ";M104 S0\n;M140 S0\n\nFAKE_TOOLCHANGE TOOL=0 FAKE=1\n\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL={initial_extruder}  TOTAL_LAYER=[total_layer_count]\n\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\n\n\n;_SET_TIMELAPSE_SETUP enable=true verbose=true\n;GET_TIMELAPSE_SETUP",
+    "name": "VS373-SW",
+    "print_host": "http://skadi.local",
+    "print_host_webui": "http://skadi.local:7125",
+    "printable_area": [
+        "0x0",
+        "220x0",
+        "220x230",
+        "0x230"
+    ],
+    "printable_height": "200",
+    "printer_agent": "moonraker",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "printer_notes": "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nI'm pretending to own a prusa and double keywording here.\nPRINTER_VENDOR_PRUSA3D\nPRINTER_MODEL_CYBER\nPRINTER_OS_KLIPPER\nHOTEND_AFTERBURNER_E3D\nHOTEND_AFTERBURNER_REVO\nPG\nPRINTER_MODEL_MK4IS\nINPUT_SHAPER\nHF_NOZZLE",
+    "printer_settings_id": "VS373-SW",
+    "printer_structure": "i3",
+    "retract_length_toolchange": [
+        "0"
+    ],
+    "retraction_length": [
+        "0.5"
+    ],
+    "retraction_minimum_travel": [
+        "1.5"
+    ],
+    "retraction_speed": [
+        "35"
+    ],
+    "version": "2.3.1.11",
+    "z_hop_types": [
+        "Auto Lift"
+    ]
+}

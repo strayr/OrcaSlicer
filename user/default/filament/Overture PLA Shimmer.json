@@ -35,7 +35,7 @@
    "full_fan_speed_layer" : "3",
    "hot_plate_temp" : "60",
    "hot_plate_temp_initial_layer" : "60",
-   "inherits" : "Overture PLA @PG",
+   "inherits" : "Generic PLA",
    "is_custom_defined" : "1",
    "name" : "Overture PLA Shimmer",
    "nozzle_temperature" : "220",

@@ -27,7 +27,7 @@
     "infill_combination": "0",
     "infill_combination_max_layer_height": "0.3",
     "infill_wall_overlap": "15%",
-    "inherits": "Ellis_PIF_Standard_15mm3",
+    "inherits": "0.20mm Standard @Voron",
     "initial_layer_acceleration": "500",
     "initial_layer_line_width": "0.5",
     "initial_layer_print_height": "0.2",

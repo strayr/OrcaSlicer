@@ -21,7 +21,7 @@
     "hot_plate_temp": [
         "55"
     ],
-    "inherits": "Bambu PLA Basic @BBL A1M 0.2 nozzle",
+    "inherits": "Generic PLA",
     "is_custom_defined": "0",
     "name": "FDG PLA BASIC V5 @BBL A1M 0.2 nozzle",
     "nozzle_temperature_initial_layer": [

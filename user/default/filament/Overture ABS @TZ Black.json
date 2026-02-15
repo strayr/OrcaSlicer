@@ -42,7 +42,7 @@
     "hot_plate_temp_initial_layer": [
         "110"
     ],
-    "inherits": "Overture ABS Basic @System",
+    "inherits": "Generic ABS",
     "is_custom_defined": "0",
     "name": "Overture ABS @TZ Black",
     "pressure_advance": [

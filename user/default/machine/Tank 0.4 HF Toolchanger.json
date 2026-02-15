@@ -55,7 +55,7 @@
     "head_wrap_detect_zone": [],
     "high_current_on_filament_swap": "0",
     "host_type": "octoprint",
-    "inherits": "Prusa XL 0.4 nozzle",
+    "inherits": "Voron Trident 350 0.4 nozzle",
     "is_custom_defined": "1",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
     "long_retractions_when_cut": [

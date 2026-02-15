@@ -3,7 +3,7 @@
     "elefant_foot_compensation": "0.2",
     "from": "User",
     "gcode_comments": "1",
-    "inherits": "0.20mm Standard @MK3S",
+    "inherits" : "0.20mm Standard @Voron",
     "initial_layer_print_height": "0.16",
     "internal_solid_infill_speed": "100",
     "layer_height": "0.12",

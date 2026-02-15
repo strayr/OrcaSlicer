@@ -27,7 +27,7 @@
     "hot_plate_temp_initial_layer": [
         "100"
     ],
-    "inherits": "Generic ASA @System",
+    "inherits": "Generic ASA",
     "is_custom_defined": "0",
     "name": "Prusa ASA @V0 0.4",
     "nozzle_temperature": [

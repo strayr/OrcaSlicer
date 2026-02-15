@@ -35,7 +35,7 @@
    "full_fan_speed_layer" : "0",
    "hot_plate_temp" : "100",
    "hot_plate_temp_initial_layer" : "100",
-   "inherits" : "Esun ABS",
+   "inherits": "Generic ABS",
    "is_custom_defined" : "1",
    "name" : "Esun ABS + Black morefan",
    "nozzle_temperature" : "255",

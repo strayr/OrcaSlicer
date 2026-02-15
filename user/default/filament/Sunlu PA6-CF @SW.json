@@ -33,7 +33,7 @@
     "full_fan_speed_layer": [
         "8"
     ],
-    "inherits": "Prusa Generic PA-CF",
+    "inherits": "Generic PA-CF",
     "is_custom_defined": "0",
     "name": "Sunlu PA6-CF @SW",
     "nozzle_temperature": [

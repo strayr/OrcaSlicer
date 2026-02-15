@@ -78,7 +78,7 @@
     "infill_overhang_angle": "60",
     "infill_shift_step": "0.4",
     "infill_wall_overlap": "25%",
-    "inherits": "0.20mm SPEED @MK3",
+    "inherits" : "0.20mm Standard @Voron",
     "initial_layer_acceleration": "500",
     "initial_layer_infill_speed": "30",
     "initial_layer_jerk": "9",

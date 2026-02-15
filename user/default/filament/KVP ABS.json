@@ -37,7 +37,7 @@
    "full_fan_speed_layer" : "0",
    "hot_plate_temp" : "105",
    "hot_plate_temp_initial_layer" : "110",
-   "inherits" : "",
+   "inherits" : "Generic ABS",
    "is_custom_defined" : "1",
    "name" : "KVP ABS",
    "nozzle_temperature" : "235",

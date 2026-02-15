@@ -35,7 +35,7 @@
    "full_fan_speed_layer" : "4",
    "hot_plate_temp" : "100",
    "hot_plate_temp_initial_layer" : "100",
-   "inherits" : "Esun ABS",
+   "inherits": "Generic ABS",
    "is_custom_defined" : "1",
    "name" : "Sunlu ABS @HiFlo",
    "nozzle_temperature" : "255",

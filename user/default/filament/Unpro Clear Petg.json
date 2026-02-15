@@ -40,7 +40,7 @@
    "full_fan_speed_layer" : "5",
    "hot_plate_temp" : "80",
    "hot_plate_temp_initial_layer" : "80",
-   "inherits" : "Prusament PETG @PGIS",
+   "inherits" : "Generic PETG",
    "is_custom_defined" : "1",
    "name" : "Unpro Clear Petg",
    "nozzle_temperature" : "230",

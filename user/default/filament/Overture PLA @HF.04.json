@@ -36,7 +36,7 @@
    "full_fan_speed_layer" : "3",
    "hot_plate_temp" : "60",
    "hot_plate_temp_initial_layer" : "60",
-   "inherits" : "Overture PLA @XL HF0.4",
+   "inherits" : "Generic PLA",
    "is_custom_defined" : "1",
    "name" : "Overture PLA @HF.04",
    "nozzle_temperature" : "220",

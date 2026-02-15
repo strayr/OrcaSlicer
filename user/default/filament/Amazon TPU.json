@@ -220,7 +220,7 @@
     "idle_temperature": [
         "0"
     ],
-    "inherits": "",
+    "inherits": "Generic TPU",
     "internal_bridge_fan_speed": [
         "-1"
     ],

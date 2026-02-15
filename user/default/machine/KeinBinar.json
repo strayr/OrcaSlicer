@@ -14,7 +14,7 @@
     "min_resonance_avoidance_speed": "110",
     "name": "KeinBinar",
     "nozzle_type": [
-        "hardened_steel"
+        "brass"
     ],
     "print_host": "https://keinbinar:7130",
     "print_host_webui": "https://keinbinar:7130",
@@ -33,6 +33,8 @@
         "Direct Drive Standard"
     ],
     "printer_settings_id": "KeinBinar",
+    "printer_structure": "corexy",
+    "printhost_cafile": "C:\\Users\\robyn\\OneDrive\\3D Objects\\certs\\moonraker.cert",
     "printhost_ssl_ignore_revoke": "1",
     "retraction_length": [
         "0.4"

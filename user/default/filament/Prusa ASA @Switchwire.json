@@ -33,7 +33,7 @@
     "hot_plate_temp_initial_layer": [
         "100"
     ],
-    "inherits": "Generic ASA @System",
+    "inherits": "Generic ASA",
     "is_custom_defined": "0",
     "name": "Prusa ASA @Switchwire",
     "nozzle_temperature": [

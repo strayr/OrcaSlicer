@@ -220,7 +220,7 @@
     "idle_temperature": [
         "0"
     ],
-    "inherits": "Overture PLA @XL HF0.4",
+    "inherits": "Generic PLA",
     "internal_bridge_fan_speed": [
         "-1"
     ],

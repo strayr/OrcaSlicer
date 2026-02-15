@@ -75,7 +75,7 @@
     "hot_plate_temp_initial_layer": [
         "60"
     ],
-    "inherits": "Amazon TPU",
+    "inherits": "Generic TPU",
     "is_custom_defined": "1",
     "name": "Amazon TPU @V0",
     "nozzle_temperature": [

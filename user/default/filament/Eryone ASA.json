@@ -36,7 +36,7 @@
    "full_fan_speed_layer" : "0",
    "hot_plate_temp" : "85",
    "hot_plate_temp_initial_layer" : "85",
-   "inherits" : "Prusament ASA @MK4",
+   "inherits" : "Generic ASA",
    "is_custom_defined" : "1",
    "name" : "Eryone ASA",
    "nozzle_temperature" : "260",

@@ -9,7 +9,7 @@
         "SUNLU PETG @TZCHT"
     ],
     "from": "User",
-    "inherits": "SUNLU PETG @System",
+    "inherits": "Generic PETG",
     "is_custom_defined": "0",
     "name": "SUNLU PETG @TZCHT",
     "version": "2.3.0.3"

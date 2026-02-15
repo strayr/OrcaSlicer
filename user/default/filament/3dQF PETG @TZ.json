@@ -1,12 +1,12 @@
 {
-    "compatible_printers": [
-        "Prusa XL 0.4 nozzle"
-    ],
     "default_filament_colour": [
         "#C0C0C0"
     ],
     "enable_pressure_advance": [
         "1"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
     ],
     "filament_flow_ratio": [
         "0.97"
@@ -33,8 +33,7 @@
     "hot_plate_temp_initial_layer": [
         "80"
     ],
-    "inherits": "SUNLU PETG @System",
-    "is_custom_defined": "0",
+    "inherits": "Generic PETG",
     "name": "3dQF PETG @TZ",
     "nozzle_temperature": [
         "260"
@@ -50,6 +49,9 @@
     ],
     "pressure_advance": [
         "0.08"
+    ],
+    "required_nozzle_HRC": [
+        "0"
     ],
     "version": "2.3.0.3"
 }

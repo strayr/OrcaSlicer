@@ -33,7 +33,7 @@
     "hot_plate_temp_initial_layer": [
         "70"
     ],
-    "inherits": "SUNLU PETG @System",
+    "inherits": "Generic PETG",
     "is_custom_defined": "0",
     "name": "SUNLU PETG NEW Silver@TZ",
     "nozzle_temperature": [

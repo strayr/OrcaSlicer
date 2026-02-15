@@ -220,7 +220,7 @@
     "idle_temperature": [
         "0"
     ],
-    "inherits": "Prusament PETG @PGIS",
+    "inherits": "Generic PETG",
     "internal_bridge_fan_speed": [
         "-1"
     ],

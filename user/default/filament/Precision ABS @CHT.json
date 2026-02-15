@@ -37,7 +37,7 @@
    "full_fan_speed_layer" : "6",
    "hot_plate_temp" : "110",
    "hot_plate_temp_initial_layer" : "110",
-   "inherits" : "Esun ABS",
+   "inherits": "Generic ABS",
    "is_custom_defined" : "1",
    "name" : "Precision ABS @CHT",
    "nozzle_temperature" : "235",

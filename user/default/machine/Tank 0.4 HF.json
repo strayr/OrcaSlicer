@@ -1,22 +1,6 @@
 {
-    "adaptive_bed_mesh_margin": "0",
-    "auxiliary_fan": "0",
-    "bbl_use_printhost": "0",
-    "bed_custom_model": "",
-    "bed_custom_texture": "",
-    "bed_exclude_area": [
-        "0x0"
-    ],
-    "bed_mesh_max": "99999,99999",
-    "bed_mesh_min": "-99999,-99999",
-    "bed_mesh_probe_distance": "50,50",
     "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
-    "best_object_pos": "0.5,0.5",
-    "change_extrusion_role_gcode": "",
     "change_filament_gcode": "M600",
-    "cooling_tube_length": "5",
-    "cooling_tube_retraction": "91.5",
-    "default_bed_type": "",
     "default_filament_profile": [
         "Generic PLA"
     ],
@@ -24,83 +8,56 @@
     "deretraction_speed": [
         "25"
     ],
-    "disable_m73": "0",
-    "emit_machine_limits_to_gcode": "1",
-    "enable_filament_ramming": "1",
-    "enable_long_retraction_when_cut": "0",
-    "extra_loading_move": "-2",
     "extruder_clearance_height_to_lid": "120",
     "extruder_clearance_height_to_rod": "40",
     "extruder_clearance_radius": "40",
     "extruder_colour": [
         ""
     ],
-    "extruder_offset": [
-        "0x0"
-    ],
-    "fan_kickstart": "0",
-    "fan_speedup_overhangs": "1",
-    "fan_speedup_time": "0",
     "from": "User",
     "gcode_flavor": "klipper",
-    "head_wrap_detect_zone": [],
-    "high_current_on_filament_swap": "0",
     "host_type": "octoprint",
-    "inherits": "Prusa XL 0.4 nozzle",
-    "is_custom_defined": "1",
+    "inherits": "Voron Trident 350 0.4 nozzle",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
-    "long_retractions_when_cut": [
-        "0"
-    ],
     "machine_end_gcode": "PRINT_END",
-    "machine_load_filament_time": "0",
     "machine_max_acceleration_e": [
+        "5000",
         "5000"
     ],
     "machine_max_acceleration_extruding": [
+        "5000",
         "5000"
     ],
     "machine_max_acceleration_retracting": [
-        "5000"
-    ],
-    "machine_max_acceleration_travel": [
+        "5000",
         "5000"
     ],
     "machine_max_acceleration_x": [
+        "5000",
         "5000"
     ],
     "machine_max_acceleration_y": [
+        "5000",
         "5000"
     ],
     "machine_max_acceleration_z": [
+        "100",
         "100"
-    ],
-    "machine_max_jerk_e": [
-        "10"
-    ],
-    "machine_max_jerk_x": [
-        "8"
-    ],
-    "machine_max_jerk_y": [
-        "8"
-    ],
-    "machine_max_jerk_z": [
-        "2"
     ],
     "machine_max_junction_deviation": [
         "0",
         "0"
     ],
-    "machine_max_speed_e": [
-        "100"
-    ],
     "machine_max_speed_x": [
+        "300",
         "300"
     ],
     "machine_max_speed_y": [
+        "300",
         "300"
     ],
     "machine_max_speed_z": [
+        "40",
         "40"
     ],
     "machine_min_extruding_rate": [
@@ -111,30 +68,11 @@
     ],
     "machine_pause_gcode": "_SOUND_ALARM\nPAUSE",
     "machine_start_gcode": ";M104 S0\n;M140 S0\n\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL={initial_extruder}  TOTAL_LAYER=[total_layer_count]\n\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\n\n;_SET_TIMELAPSE_SETUP enable=true verbose=true\n;GET_TIMELAPSE_SETUP",
-    "machine_tool_change_time": "0",
-    "machine_unload_filament_time": "0",
-    "manual_filament_change": "0",
-    "max_layer_height": [
-        "0.3"
-    ],
-    "max_resonance_avoidance_speed": "120",
-    "min_layer_height": [
-        "0.07"
-    ],
-    "min_resonance_avoidance_speed": "70",
     "name": "Tank 0.4 HF",
-    "nozzle_diameter": [
-        "0.4"
+    "nozzle_type": [
+        "undefine"
     ],
-    "nozzle_height": "2.5",
-    "nozzle_hrc": "0",
-    "nozzle_type": "undefine",
-    "nozzle_volume": "0",
-    "parking_pos_retraction": "92",
-    "pellet_modded_printer": "0",
-    "preferred_orientation": "0",
     "print_host": "quoth.local:7125",
-    "print_host_webui": "",
     "printable_area": [
         "0x0",
         "325x0",
@@ -142,22 +80,17 @@
         "0x325"
     ],
     "printable_height": "380",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "printer_model": "",
     "printer_notes": "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nI'm pretending to own a prusa and double keywording here.\nPRINTER_VENDOR_PRUSA3D\nPRINTER_MODEL_CYBER\nPRINTER_OS_KLIPPER\nHOTEND_AFTERBURNER_E3D\nHOTEND_AFTERBURNER_REVO\nPG\nPRINTER_MODEL_XLIS\nINPUT_SHAPER\nHF_NOZZLE",
     "printer_settings_id": "Tank 0.4 HF",
-    "printer_structure": "undefine",
-    "printer_technology": "FFF",
+    "printer_structure": "corexy",
     "printer_variant": "",
-    "printhost_apikey": "",
-    "printhost_authorization_type": "key",
-    "printhost_cafile": "",
-    "printhost_password": "",
-    "printhost_port": "",
-    "printhost_ssl_ignore_revoke": "0",
-    "printhost_user": "",
-    "printing_by_object_gcode": "",
-    "purge_in_prime_tower": "1",
-    "resonance_avoidance": "0",
     "retract_before_wipe": [
         "100%"
     ],
@@ -170,21 +103,6 @@
     "retract_lift_below": [
         "1500"
     ],
-    "retract_lift_enforce": [
-        "All Surfaces"
-    ],
-    "retract_restart_extra": [
-        "0"
-    ],
-    "retract_restart_extra_toolchange": [
-        "0"
-    ],
-    "retract_when_changing_layer": [
-        "1"
-    ],
-    "retraction_distances_when_cut": [
-        "18"
-    ],
     "retraction_length": [
         "0.5"
     ],
@@ -194,35 +112,13 @@
     "retraction_speed": [
         "30"
     ],
-    "scan_first_layer": "0",
-    "silent_mode": "0",
     "single_extruder_multi_material": "0",
-    "support_air_filtration": "1",
-    "support_chamber_temp_control": "1",
-    "support_multi_bed_types": "0",
-    "template_custom_gcode": "",
     "thumbnails": "32x32/PNG, 400x300/PNG",
-    "thumbnails_format": "PNG",
-    "time_cost": "0",
-    "time_lapse_gcode": "",
-    "travel_slope": [
-        "3"
-    ],
-    "upward_compatible_machine": [],
-    "use_firmware_retraction": "0",
-    "use_relative_e_distances": "1",
     "version": "1.6.0.0",
-    "wipe": [
-        "1"
-    ],
-    "wipe_distance": [
-        "1"
-    ],
     "z_hop": [
         "0.3"
     ],
     "z_hop_types": [
         "Slope Lift"
-    ],
-    "z_offset": "0"
+    ]
 }
