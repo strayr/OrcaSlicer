@@ -1,4 +1,6 @@
 {
+    "bed_custom_model": "C:\\\\Opt\\\\OrcaSlicer\\\\OrcaSlicer_Windows_V2.3.1_portable\\\\resources\\\\profiles\\\\Voron\\\\Voron_350_build_plate.stl",
+    "bed_custom_texture": "C:\\\\Opt\\\\OrcaSlicer\\\\OrcaSlicer_Windows_V2.3.1_portable\\\\resources\\\\profiles\\\\Voron\\\\voron_logo.png",
     "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
     "change_filament_gcode": "M600",
     "default_filament_profile": [
@@ -15,20 +17,9 @@
         ""
     ],
     "from": "User",
-    "gcode_flavor": "klipper",
-    "host_type": "octoprint",
     "inherits": "Voron Trident 350 0.4 nozzle",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n;LAYER:[layer_num]\n;@OCTOLAPSE TAKE-SNAPSHOT\n;TIMELAPSE_TAKE_FRAME\nSET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}",
-    "machine_end_gcode": "PRINT_END",
-    "machine_max_acceleration_e": [
-        "5000",
-        "5000"
-    ],
     "machine_max_acceleration_extruding": [
-        "5000",
-        "5000"
-    ],
-    "machine_max_acceleration_retracting": [
         "5000",
         "5000"
     ],
@@ -69,9 +60,6 @@
     "machine_pause_gcode": "_SOUND_ALARM\nPAUSE",
     "machine_start_gcode": ";M104 S0\n;M140 S0\n\nSTART_PRINT EXTRUDER_TEMP=[first_layer_temperature] BED_TEMP=[first_layer_bed_temperature] MATERIAL=[filament_type] SIZE={first_layer_print_min[0]}_{first_layer_print_min[1]}_{first_layer_print_max[0]}_{first_layer_print_max[1]} INITIAL_TOOL={initial_extruder}  TOTAL_LAYER=[total_layer_count]\n\nSET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]\n\n;_SET_TIMELAPSE_SETUP enable=true verbose=true\n;GET_TIMELAPSE_SETUP",
     "name": "Tank 0.4 HF",
-    "nozzle_type": [
-        "undefine"
-    ],
     "print_host": "quoth.local:7125",
     "printable_area": [
         "0x0",
@@ -108,9 +96,6 @@
     ],
     "retraction_minimum_travel": [
         "2"
-    ],
-    "retraction_speed": [
-        "30"
     ],
     "single_extruder_multi_material": "0",
     "thumbnails": "32x32/PNG, 400x300/PNG",

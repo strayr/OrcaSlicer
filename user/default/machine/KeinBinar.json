@@ -1,5 +1,6 @@
 {
     "auxiliary_fan": "1",
+    "bed_custom_model": "C:\\\\Opt\\\\OrcaSlicer\\\\OrcaSlicer_Windows_V2.3.1_portable\\\\resources\\\\profiles\\\\Voron\\\\Voron_120_build_plate.stl",
     "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n\n",
     "emit_machine_limits_to_gcode": "0",
     "from": "User",
@@ -20,8 +21,8 @@
     "print_host_webui": "https://keinbinar:7130",
     "printable_area": [
         "0x0",
-        "120x0",
-        "120x118",
+        "118x0",
+        "118x118",
         "0x118"
     ],
     "printable_height": "115",
@@ -34,7 +35,7 @@
     ],
     "printer_settings_id": "KeinBinar",
     "printer_structure": "corexy",
-    "printhost_cafile": "C:\\Users\\robyn\\OneDrive\\3D Objects\\certs\\moonraker.cert",
+    "printhost_cafile": "C:Users\robynOneDrive3D Objectscertsmoonraker.cert",
     "printhost_ssl_ignore_revoke": "1",
     "retraction_length": [
         "0.4"
